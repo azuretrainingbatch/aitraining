@@ -10,7 +10,6 @@ app = Flask(__name__)
 endpoint = "https://msftfoundry20261.cognitiveservices.azure.com/"
 api_key = "75TGrrQBxhUYjnayPo8hUxpgb4y7mG1iNy5DfBOeKlbF9BoQT66WJQQJ99CKACYeBjFXJ3w3AAAAACOGuTJz"
 
-
 def authenticate_client():
     if "YOUR-LANGUAGE-RESOURCE" in endpoint or "PASTE_YOUR_NEW" in api_key:
         raise ValueError(
